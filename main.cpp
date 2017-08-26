@@ -123,7 +123,7 @@ int main() {
           v += current_a * latency;
 
           //Converting coordinates from map to car view:
-          for (int i = 0; i<ptsx.size(); i++){
+          for (size_t i = 0; i<ptsx.size(); i++){
         	  // 1. Centering coordinates, i.e. (px, py) is (0,0) in car's coordinate system
         	  double x = ptsx[i] - px;
         	  double y = ptsy[i] - py;
