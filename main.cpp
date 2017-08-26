@@ -91,8 +91,8 @@ int main() {
         string event = j[0].get<string>();
         if (event == "telemetry") {
           // j[1] is the data JSON object
-          Eigen::VectorXd ptsx = j[1]["ptsx"];
-          Eigen::VectorXd ptsy = j[1]["ptsy"];
+          vector<double> ptsx = j[1]["ptsx"];
+          vector<double> ptsy = j[1]["ptsy"];
           double px = j[1]["x"];
           double py = j[1]["y"];
           double psi = j[1]["psi"];
@@ -132,8 +132,15 @@ int main() {
         	  ptsy[i] = x * sin(-psi) + y * cos(-psi);
           }
 
+          //Convert waypoints to Eigen
+          //Pointers to first elements
+          double* ptr_x = &ptsx[0];
+          double* ptr_y = &ptsy[0];
+          Eigen::Map<Eigen::VectorXd> ptsx_eigen(ptr_x, 6);
+		  Eigen::Map<Eigen::VectorXd> ptsy_eigen(ptr_y, 6);
+
           // Fit a 3rd degree polynomial to the waypoints
-          Eigen::VectorXd coeffs = polyfit(ptsx, ptsy, 3);
+          Eigen::VectorXd coeffs = polyfit(ptsx_eigen, ptsy_eigen, 3);
 
           // The cross track error is calculated by evaluating at polynomial at x, f(x)
   		  // and subtracting y, and in car's coordinate system x = 0, y = 0;
@@ -182,8 +189,8 @@ int main() {
           //.. add (x,y) points to list here, points are in reference to the vehicle's coordinate system
           // the points in the simulator are connected by a Yellow line
 
-          //unity value of 1 equals 1 meter, so I'm predicting 19 meters...
-          for (double i = 0; i < 20; i++) {
+          //unity value of 1 equals 1 meter, so I'm predicting 49 meters...
+          for (double i = 0; i < 50; i++) {
     		next_x_vals.push_back(i);
     		next_y_vals.push_back(polyeval(coeffs, i));
   		  }
