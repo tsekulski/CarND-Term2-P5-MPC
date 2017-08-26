@@ -1,8 +1,10 @@
 # CarND-Term2-P5-MPC
 Model Predictive Control - Self-Driving Car Engineer Nanodegree Program
+
 The goal of the project is to design an algorithm that will steer a car around a race track. The algorithm works as follows:
-(a) find the desired car route by fitting a polynomial into known way points ahead of the car (= desired route)
-(b) find steering angle, acceleration and brake parameters (= actuator values) which will minimize the driving error vs. desired route
+* (a) find the desired car route by fitting a polynomial into known way points ahead of the car (= desired route)
+* (b) find steering angle, acceleration and brake parameters (= actuator values) which will minimize the driving error vs. desired route
+
 The actuator values are updated every 100 ms, i.e. the above algorithm loops with a 100 ms interval.
 
 ## The Model
