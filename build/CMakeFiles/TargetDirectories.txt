@@ -1,3 +1,3 @@
-/home/tomek/workspace/CarND-MPC-Project/build/CMakeFiles/edit_cache.dir
-/home/tomek/workspace/CarND-MPC-Project/build/CMakeFiles/rebuild_cache.dir
-/home/tomek/workspace/CarND-MPC-Project/build/CMakeFiles/mpc.dir
+/home/tomek/workspace/CarND-Term2-P5-MPC/build/CMakeFiles/edit_cache.dir
+/home/tomek/workspace/CarND-Term2-P5-MPC/build/CMakeFiles/rebuild_cache.dir
+/home/tomek/workspace/CarND-Term2-P5-MPC/build/CMakeFiles/mpc.dir

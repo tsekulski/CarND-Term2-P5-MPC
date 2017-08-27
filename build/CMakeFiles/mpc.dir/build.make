@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tomek/workspace/CarND-MPC-Project
+CMAKE_SOURCE_DIR = /home/tomek/workspace/CarND-Term2-P5-MPC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tomek/workspace/CarND-MPC-Project/build
+CMAKE_BINARY_DIR = /home/tomek/workspace/CarND-Term2-P5-MPC/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mpc.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/mpc.dir/flags.make
 
 CMakeFiles/mpc.dir/src/MPC.cpp.o: CMakeFiles/mpc.dir/flags.make
 CMakeFiles/mpc.dir/src/MPC.cpp.o: ../src/MPC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tomek/workspace/CarND-MPC-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mpc.dir/src/MPC.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/src/MPC.cpp.o -c /home/tomek/workspace/CarND-MPC-Project/src/MPC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tomek/workspace/CarND-Term2-P5-MPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mpc.dir/src/MPC.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/src/MPC.cpp.o -c /home/tomek/workspace/CarND-Term2-P5-MPC/src/MPC.cpp
 
 CMakeFiles/mpc.dir/src/MPC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mpc.dir/src/MPC.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tomek/workspace/CarND-MPC-Project/src/MPC.cpp > CMakeFiles/mpc.dir/src/MPC.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tomek/workspace/CarND-Term2-P5-MPC/src/MPC.cpp > CMakeFiles/mpc.dir/src/MPC.cpp.i
 
 CMakeFiles/mpc.dir/src/MPC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mpc.dir/src/MPC.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tomek/workspace/CarND-MPC-Project/src/MPC.cpp -o CMakeFiles/mpc.dir/src/MPC.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tomek/workspace/CarND-Term2-P5-MPC/src/MPC.cpp -o CMakeFiles/mpc.dir/src/MPC.cpp.s
 
 CMakeFiles/mpc.dir/src/MPC.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/mpc.dir/src/MPC.cpp.o.provides.build: CMakeFiles/mpc.dir/src/MPC.cpp.
 
 CMakeFiles/mpc.dir/src/main.cpp.o: CMakeFiles/mpc.dir/flags.make
 CMakeFiles/mpc.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tomek/workspace/CarND-MPC-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mpc.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/src/main.cpp.o -c /home/tomek/workspace/CarND-MPC-Project/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tomek/workspace/CarND-Term2-P5-MPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mpc.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mpc.dir/src/main.cpp.o -c /home/tomek/workspace/CarND-Term2-P5-MPC/src/main.cpp
 
 CMakeFiles/mpc.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mpc.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tomek/workspace/CarND-MPC-Project/src/main.cpp > CMakeFiles/mpc.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tomek/workspace/CarND-Term2-P5-MPC/src/main.cpp > CMakeFiles/mpc.dir/src/main.cpp.i
 
 CMakeFiles/mpc.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mpc.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tomek/workspace/CarND-MPC-Project/src/main.cpp -o CMakeFiles/mpc.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tomek/workspace/CarND-Term2-P5-MPC/src/main.cpp -o CMakeFiles/mpc.dir/src/main.cpp.s
 
 CMakeFiles/mpc.dir/src/main.cpp.o.requires:
 
@@ -117,7 +117,7 @@ mpc: CMakeFiles/mpc.dir/src/MPC.cpp.o
 mpc: CMakeFiles/mpc.dir/src/main.cpp.o
 mpc: CMakeFiles/mpc.dir/build.make
 mpc: CMakeFiles/mpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tomek/workspace/CarND-MPC-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable mpc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tomek/workspace/CarND-Term2-P5-MPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable mpc"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mpc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/mpc.dir/clean:
 .PHONY : CMakeFiles/mpc.dir/clean
 
 CMakeFiles/mpc.dir/depend:
-	cd /home/tomek/workspace/CarND-MPC-Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tomek/workspace/CarND-MPC-Project /home/tomek/workspace/CarND-MPC-Project /home/tomek/workspace/CarND-MPC-Project/build /home/tomek/workspace/CarND-MPC-Project/build /home/tomek/workspace/CarND-MPC-Project/build/CMakeFiles/mpc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tomek/workspace/CarND-Term2-P5-MPC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tomek/workspace/CarND-Term2-P5-MPC /home/tomek/workspace/CarND-Term2-P5-MPC /home/tomek/workspace/CarND-Term2-P5-MPC/build /home/tomek/workspace/CarND-Term2-P5-MPC/build /home/tomek/workspace/CarND-Term2-P5-MPC/build/CMakeFiles/mpc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mpc.dir/depend
 

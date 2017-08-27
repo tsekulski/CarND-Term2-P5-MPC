@@ -1,4 +1,4 @@
-# Install script for directory: /home/tomek/workspace/CarND-MPC-Project
+# Install script for directory: /home/tomek/workspace/CarND-Term2-P5-MPC
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tomek/workspace/CarND-MPC-Project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tomek/workspace/CarND-Term2-P5-MPC/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
