@@ -1,5 +1,12 @@
 # CarND-Term2-P5-MPC
-Model Predictive Control - Self-Driving Car Engineer Nanodegree Program
+
+_Technologies: Model Predictive Control, C++_
+
+Implemented Model Predictive Control to drive a vehicle around a track even with additional latency between commands.
+
+_Part of the Self-Driving Car Engineer Nanodegree Program_
+
+# Overview
 
 The goal of the project is to design an algorithm that will steer a car around a race track. The algorithm works as follows:
 * (a) find the desired car route by fitting a polynomial into known way points ahead of the car (= desired route)
